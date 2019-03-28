@@ -102,7 +102,7 @@ public class MyDBadapter {
         return new Item(cursor.getString(index));
     }
 
-
+    // nested class
     private static class MyDBhelper extends SQLiteOpenHelper {
 
         // SQL statement to create a new database
